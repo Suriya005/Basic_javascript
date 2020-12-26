@@ -1,0 +1,1475 @@
+HTTP/1.1 200 OK
+Date: Sat, 26 Dec 2020 19:19:19 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: close
+Last-Modified: Sat, 26 Dec 2020 19:18:01 GMT
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+cf-request-id: 074216c2cc00001a2e1b14b000000001
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=V5F9W4i62EEUKB33oakuE7UeBBBF7IWwaK0eexnSQrxHyjx0jCkY7vYxVU%2F7wHSWb00fL19VMT0Hkx9WZt84jIogBa3GwaGxukS1KlP%2BaqURgt2r"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 607d2717ad581a2e-SIN
+Content-Encoding: gzip
+
+<!DOCTYPE html>
+<html lang="en" ng-app='ngApp' ng-controller='MainController'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="/manifest.json">
+<meta name="csrf-token" content="aczLwbr1vjpX7s9FktGZoGHEJ8wwI0GRv8WvyyPb">
+<title>รายงานสถานการณ์โควิด-19 ประจำประเทศไทย</title>
+<meta property="og:url" content="https://covid19.th-stat.com" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="รายงานสถานการณ์โควิด-19" />
+<meta property="og:description" content="เว็บไซท์แจ้งรายงานสถานการณ์โดยกรมควบคุมโรค กระทรวงสาธารณสุข" />
+<meta property="og:image" content="https://covid19.th-stat.com/upload/Meta/20200610_s_8ReGDPfIkn.jpg" />
+<link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link href="/css/fonts.css" rel="stylesheet">
+<script src="https://covid19.th-stat.com/vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+    </script>
+<script src="https://covid19.th-stat.com/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://covid19.th-stat.com/vendor/sweetalert/sweetalert2.all.min.js"></script>
+<script src="https://covid19.th-stat.com/vendor/moment/moment.js"></script>
+<link href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="https://covid19.th-stat.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://covid19.th-stat.com/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet" type="text/css">
+<link href="https://covid19.th-stat.com/vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+<link href="https://covid19.th-stat.com/vendor/semantic_ui/semantic.min.css" rel="stylesheet" type="text/css">
+<link href="https://covid19.th-stat.com/vendor/jquery-jvectormap/jquery-jvectormap-2.0.3.css" rel="stylesheet" type="text/css">
+<script src="https://covid19.th-stat.com/vendor/owlcarousel/owl.carousel.min.js"></script>
+<script src="https://covid19.th-stat.com/vendor/semantic_ui/semantic.min.css"></script>
+<link href="https://covid19.th-stat.com/script/covid_19/style.css??v=28" rel="stylesheet">
+<script src="https://covid19.th-stat.com/vendor/jsdelivr/polyfill.min.js"></script>
+<script src="https://covid19.th-stat.com/vendor/jsdelivr/classList.min.js"></script>
+<script src="https://covid19.th-stat.com/vendor/jsdelivr/findindex_polyfill_mdn.js"></script>
+<script src="https://covid19.th-stat.com/vendor/jsdelivr/apexcharts.js"></script>
+<script src="https://covid19.th-stat.com/vendor/jquery-jvectormap/jquery-jvectormap.js"></script>
+<script src="https://covid19.th-stat.com/vendor/jquery-jvectormap/jquery-jvectormap-th-merc.js"></script>
+<script src="https://covid19.th-stat.com/vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script src="https://covid19.th-stat.com/vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script src="https://covid19.th-stat.com/vendor/datatables-responsive/dataTables.responsive.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+<script src="https://covid19.th-stat.com/vendor/angular/angular.min.js"></script>
+<script src="https://covid19.th-stat.com/vendor/kidkarnmai/kidkarnmaiNumber.js"></script>
+<script src="https://covid19.th-stat.com/vendor/kidkarnmai/kidkarnmaiDatetime.js"></script>
+<script src="https://covid19.th-stat.com/vendor/kidkarnmai/kidkarnmaiPreloader.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-network.min.css" rel="stylesheet" type="text/css" />
+<script>
+    if (location.protocol !== 'https:') {   
+        location.replace(`https:${location.href.substring(location.protocol.length)}`);
+    }
+    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159954844-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159954844-1');
+    </script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PD7SPDV');</script>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD7SPDV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<section class="header-main">
+<div class="blcok-heder">
+<div class="block-info-head">
+<div class="info-head-in-left">
+<div class="block-search">
+<div class="ui search">
+<img class="hidden-xs" src="https://covid19.th-stat.com/img/logoDDC.png" />
+<div class="results"></div>
+</div>
+</div>
+</div>
+<div class="info-head-in-right">
+<button class="btn btn-refresh" onclick="location.reload();">
+<i class="flaticon-reload"></i>
+</button>
+<div class="block-language">
+<input type="checkbox" id="switch1" checked switch="none" onchange="toSwithLang()" />
+<label for="switch1" data-on-label="TH" data-off-label="ENG">
+</div>
+</div>
+</div>
+<nav class="navbar">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#covid-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">
+<img class=" hidden-sm hidden-md hidden-lg" src="https://covid19.th-stat.com/img/logoDDC.png" alt="">
+</a>
+</div>
+<div class="collapse navbar-collapse" id="covid-collapse">
+<ul class="nav navbar-nav">
+<li class=" active ">
+<a href="/th">
+<i class="fas fa-home" style="font-size:28px; margin: 0 auto;"></i>
+Home
+</a>
+</li>
+<li class="">
+<a href="/th/network">
+<i class="flaticon-share"></i>
+Network
+</a>
+</li>
+<li class="">
+<a href="/th/self_screening">
+<i class="flaticon-file-2"></i>
+Self Assessment
+</a>
+</li>
+<li class="">
+<a href="/th/api">
+<i class="flaticon-monitor"></i>
+API</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</section>
+<script>
+function toDiv(id){
+  if($('#'+id).length){
+    $('html, body').animate({
+            scrollTop: $('#'+id).offset().top
+          }, 500, function(){
+            // window.location.hash = hash;
+          });
+  }else{
+    window.location.href = '/#div_map';
+  }
+}
+$(document).ready(function(){
+  if(window.location.hash) {
+    try{
+      var _div =     window.location.hash.split('#')[window.location.hash.split('#').length-1];
+    $('html, body').animate({
+            scrollTop: $('#'+_div).offset().top
+          }, 500, function(){
+            // window.location.hash = hash;
+          });
+    }catch(e){
+
+    }
+    
+  } else {
+    // Fragment doesn't exist
+  }
+});
+</script>
+<input type="hidden" name="_token" value="aczLwbr1vjpX7s9FktGZoGHEJ8wwI0GRv8WvyyPb">
+<section class="main-body">
+<div class="block-in-body">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 pd-0 m-swipe">
+<div class="col-xs-12 col-sm-6 col-lg-5 offset-lg-1">
+<div class="block-title-page hidden-xs hidden-sm">
+<h1>รายงานสถานการณ์ <span style="white-space: nowrap;">โควิด-19</span></h1>
+<h2>อัพเดทข้อมูลล่าสุด : 26/12/2020 11:40</h2>
+</div>
+<div class="block-title-intro">
+<div class="intro-carousel owl-carousel owl-theme">
+<div class="item">
+<div class="card-default">
+<h3>ข้อแนะนำการเข้าใช้บริการห้างสรรพสินค้าและร้านอาหาร</h3>
+<h5></h5>
+<p>
+ศบค. จัดทำแอปพลิเคชัน “ไทยชนะ” ขึ้นมาเพื่อรองรับชีวิตวิถีใหม่ (New Normal) ลงทะเบียนได้ที่ https://www.ไทยชนะ.com/
+<br><a href="https://bit.ly/2ZcmioC" target="_blank">อ่านต่อเพิ่มเติม</a>
+</p>
+</div>
+</div>
+</div>
+<div class="block-qusetion  visible-sm visible-md visible-lg">
+<div class="body-qusetion">
+<a class="button active" href="/th/self_screening">
+<h3>
+<b>ทดสอบประเมินความเสี่ยง</b>
+</h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6  col-lg-6 pd-0">
+<div class="block-title-page hidden-md hidden-lg" style="padding:10px">
+<h1>รายงานสถานการณ์ <span style="white-space: nowrap;">โควิด-19</span></h1>
+<h2>อัพเดทข้อมูลล่าสุด : 26/12/2020 11:40</h2>
+</div>
+<div class="block-st-all">
+<div class="col-xs-12 col-sm-12">
+<div class="card-default">
+<p>ติดเชื้อสะสม</p>
+<h1 style="line-height: inherit;">6,020</h1>
+<span>
+(+ 110)
+</span>
+</div>
+</div>
+<div class="col-xs-4 col-sm-4">
+<div class="card-default">
+<p>หายแล้ว</p>
+<h1>4,152</h1>
+<span>
+(+ 15)
+</span>
+</div>
+</div>
+<div class="col-xs-4 col-sm-4">
+<div class="card-default">
+<p>รักษาอยู่ใน รพ.</p>
+<h1>1,808</h1>
+<span>&nbsp;</span>
+</div>
+</div>
+<div class="col-xs-4 col-sm-4">
+<div class="card-default">
+<p>เสียชีวิต</p>
+<h1>60</h1>
+<span>&nbsp;</span>
+</div>
+</div>
+</div>
+<script>
+    function loadToday(){
+        $.ajax({
+            dataType: "json",
+            url: '/api/open/today',
+            method: "GET",
+            async: false,
+            success : function(data){
+                
+            }
+        });
+    }
+    loadToday()
+</script>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid" id="div_map">
+<div class="row">
+<div class="col-xs-12 pd-0">
+<div class="col-xs-12 title-card">
+<h3 class="">
+แผนผังการพบผู้ติดเชื้อ/ตรวจสอบพื้นที่เตือนระวัง
+</h3>
+</div>
+<div class="block-in-body">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-8 col-lg-8 pd-0">
+<div id="map"></div>
+</div>
+<div class="col-md-4 col-lg-4">
+<table id="datatable" class="table table-striped table-bordered" style="margin:auto">
+</table>
+<span id='unknown_province'></span>
+</div>
+<div class="col-xs-12 text-center">
+<br>
+<span><a href="https://data.go.th/dataset/covid-19-daily" target="_blank">
+แหล่งที่มาข้อมูล data.go.th
+</a>
+<br class="hidden-md hidden-lg">
+อัพเดทข้อมูลล่าสุด :<span id='update_at'></span>
+</div>
+</div>
+</div>
+</div>
+<div class="block-modal modal fade" id="covid_info" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="block-modal-in">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<div class="block-modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="icon-bot-close"></i></span></button>
+<h3 class="title"></h3>
+<div id="chart_provice"></div>
+<div class="block-case">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block-modal modal fade" id="covid_alert" tabindex="-1" role="dialog" aria-labelledby="myModalLabelAlert">
+<div class="block-modal-in">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<div class="block-modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="icon-bot-close"></i></span></button>
+<h3 class="title"></h3>
+<div class="alert-box">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style>
+
+    .css-icon {
+
+    }
+
+    .gps_ring { 
+        position: absolute;
+        border: 3px solid #ff1900;
+        -webkit-border-radius: 30px;
+        height: 25px;
+        width: 25px;       
+        -webkit-animation: pulsate 0.8s ease-out;
+        -webkit-animation-iteration-count: infinite; 
+        /*opacity: 0.0*/
+    }
+
+    .gps_ring_w { 
+        position: absolute;
+        border: 3px solid #fff;
+        -webkit-border-radius: 30px;
+        height: 25px;
+        width: 25px;       
+        -webkit-animation: pulsate 0.9s ease-out;
+        -webkit-animation-iteration-count: infinite; 
+        /*opacity: 0.0*/
+    }
+
+    @-webkit-keyframes pulsate {
+            0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+            50% {opacity: 1.0;}
+            100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+    }
+</style>
+<script>
+
+    var data_area = [];
+
+    arrLat = [
+        '13.7245601,100.4930267','8.1082339,98.8812874','14.0356996,99.1814514',
+        '16.6420717,103.3888503','16.3943459,99.2332633','16.4438672,102.7500533',
+        '12.6018301,102.0742376','13.5775538,101.1391649','13.0488391,100.9017948',
+        '15.1607167,99.8938333','16.0069524,101.3326521','10.3168376,98.5236832',
+        '18.7942426,98.9214578','18.7942426,98.9214578','7.5138629,99.2273957',
+        '12.1597614,102.2950432','16.521297,97.4944394','14.2369907,101.0693056',
+        '13.8104673,100.0228496','17.4050087,103.8340574','14.9673803,102.06823',
+        '8.4241585,99.8963919','15.688698,100.0511941','13.8556778,100.4783308',
+        '6.275385,101.7535433','18.8248712,100.286215','18.1089817,103.4362289',
+        '14.9625283,102.4082654','13.8965096,100.5640217','11.8039074,99.7750558',
+        '14.0222757,101.3415807','6.7608507,101.3268697','14.3536878,100.5512629',
+        '19.2704825,99.8757101','8.6728091,97.6086445','7.4921436,99.8004298',
+        '16.2804993,100.1112942','16.8169931,100.2504741','12.9537546,99.3250527',
+        '16.2949079,101.0488885','18.2613628,99.6792335','7.9074612,98.3097039',
+        '16.0242875,102.8939925','16.5567261,104.6402533','18.7248103,97.4382782',
+        '15.8187994,104.131028','6.1352645,101.2355313','16.026856,103.6283979',
+        '10.0457751,98.0827401','12.6827642,101.2138863',
+        '13.5465362,99.3380245',
+        '15.2014402,100.6412866',
+        '18.2828374,99.4517255',
+        '18.0678093,98.435592',
+        '17.4859232,100.9338692',
+        '14.9551341,104.1246124',
+        '17.4297874,103.2813845',
+        '7.0094309,100.4612159',
+        '6.8154676,99.4072355',
+        '13.5976815,100.5641051',
+        '13.3761528,99.8920907',
+        '13.5730684,100.153483',
+        '13.7221197,102.1286103',
+        '14.6440282,100.7344513',
+        '14.9165572,100.1947976',
+        '17.013159,99.8152132',
+        '14.5276881,99.9626219',
+        '9.1628408,99.1586293',
+        '14.9057301,103.3103949',
+        '17.9475869,102.4558147',
+        '17.2250459,102.0523598',
+        '14.6206127,100.2119348',
+        '15.910558,104.4593698',
+        '17.3685289,102.7305609',
+        '17.7710801,100.2642745',
+        '17.7710801,100.2642745',
+        '15.3697305,99.2648111',
+        '15.2418406,104.8399377',
+    ]
+    objGroup = {};
+    all_cases = 0
+    last7_cases = 0
+    last_cases = 0
+    last14_cases = 0
+    over7_cases = 0
+    last14_cases = 0
+    over14_cases = 0
+    UpdateDate = '';
+    var map;
+    var geojson_data;
+    
+
+    
+    $( document ).ready(function() {
+        loadCases();
+    });
+
+    function loadCases(){
+        $.ajax({
+            dataType: "json",
+            url: '/api/open/cases',
+            method: "GET",
+            async: false,
+            success : function(data){
+                data_cases = data.Data;
+                $('#update_at').html(data.UpdateDate)
+                UpdateDate = data.UpdateDate;
+                setCases()
+                loadArea();
+            }
+        });
+
+        function setCases(){
+            for(var i=0;i<data_cases.length;i++){
+                var data = data_cases[i];
+                all_cases++;
+                _name = data['ProvinceEn'].split(" ").join("")
+                if (typeof objGroup[_name] !== 'undefined'){
+                    objGroup[_name]['count']++;
+                    if(moment().diff(data['ConfirmDate'],'days') <= 7){
+                        objGroup[_name]['last7_count']++;
+                    }else{
+                        objGroup[_name]['over7_count']++;
+                    }
+                    if(moment().diff(data['ConfirmDate'],'days') <= 14){
+                        objGroup[_name]['last14_count']++;
+                    }else{
+                        objGroup[_name]['over14_count']++;
+                    }
+                    if(moment().diff(data['ConfirmDate'],'days') <= 1){
+                        objGroup[_name]['last_count']++;
+                    }
+                    if(data['GenderEn']=='Female'){
+                        objGroup[_name]['Female']++
+                        
+                    }else if(data['GenderEn']=='Male'){
+                        objGroup[_name]['Male']++
+                    }
+
+                    if(data['NationEn']=='Thai'){
+                        objGroup[_name]['Thai']++
+                    }else if(data['GenderEn']!='' || data['GenderEn']!='Unknown'){
+                        objGroup[_name]['Foreigner']++
+                    }
+                    // console.log(data['age'])
+                    if(data['Age']!='' && data['Age']!='Unknown' && data['Age']!=0 && data['Age']!='null' && data['Age']!=null){
+                        objGroup[_name]['CountWithAge']++;
+                        objGroup[_name]['SumAge'] += data['Age'];
+                    }
+
+                    if(data['StatQuarantine']=='1'){
+                        objGroup[_name]['StatQuarantine']++;
+                    }
+
+                    // objGroup[_name]['data'].push(data)
+                }
+                else{
+                    objGroup[_name] = {};
+                    objGroup[_name]['data'] = [];
+                                            objGroup[_name]['name'] = data['Province'];
+                                        objGroup[_name]['Male'] =  0;
+                    objGroup[_name]['Female'] =  0;
+                    objGroup[_name]['Thai'] =  0;
+                    objGroup[_name]['Foreigner'] =  0;
+                    objGroup[_name]['SumAge'] =  0;
+                    objGroup[_name]['CountWithAge'] =  0;
+                    objGroup[_name]['lat_long'] =  arrLat[data['ProvinceId']-1];
+                    objGroup[_name]['count'] =  1;
+                    objGroup[_name]['last7_count'] =  0;
+                    objGroup[_name]['over7_count'] =  0;
+                    objGroup[_name]['StatQuarantine'] =  0;
+                    if(moment().diff(data['ConfirmDate'],'days') <= 7){
+                        objGroup[_name]['last7_count'] =  1;
+                    }else{
+                        objGroup[_name]['over7_count'] = 1;
+                    }
+                    objGroup[_name]['last14_count'] =  0;
+                    objGroup[_name]['over14_count'] =  0;
+                    if(moment().diff(data['ConfirmDate'],'days') <= 14){
+                        objGroup[_name]['last14_count'] =  1;
+                    }else{
+                        objGroup[_name]['over14_count'] = 1;
+                    }
+                    objGroup[_name]['last_count'] =  0;
+                    if(moment().diff(data['ConfirmDate'],'days') <= 1){
+                        objGroup[_name]['last_count'] =  1;
+                    }
+                    objGroup[_name]['ProvinceId'] =  data['ProvinceId'];
+                    if(data['GenderEn']=='Female'){
+                        objGroup[_name]['Female']++
+                    }else if(data['GenderEn']=='Male'){
+                        objGroup[_name]['Male']++
+                    }
+                    if(data['NationEn']=='Thai'){
+                        objGroup[_name]['Thai']++
+                    }else if(data['GenderEn']!='' || data['GenderEn']!='Unknown'){
+                        objGroup[_name]['Foreigner']++
+                    }
+                    if(data['Age']!='' && data['Age']!='Unknown' && data['Age']!=0 && data['Age']!='null' && data['Age']!=null){
+                        objGroup[_name]['CountWithAge']++;
+                        objGroup[_name]['SumAge'] = data['Age'];
+                    }
+                    if(data['StatQuarantine']=='1'){
+                        objGroup[_name]['StatQuarantine']++;
+                    }
+                }
+                if(moment().diff(data['ConfirmDate'],'days') <= 7){
+                    last7_cases++;
+                }
+                if(moment().diff(data['ConfirmDate'],'days') <= 14){
+                    last14_cases++;
+                }
+                if(moment().diff(data['ConfirmDate'],'days') <= 1){
+                    last_cases++;
+                }
+                data['ConfirmDate'] = moment(data['ConfirmDate']).format("DD/MM/YYYY")
+                objGroup[_name]['data'].push(data)
+            }
+            setProvinceCount();
+        }
+
+        for(var n in objGroup)
+        {
+            objGroup[n]['per_all'] = ((objGroup[n]['count']*100)/all_cases).toFixed(2);
+            objGroup[n]['per_1'] = ((objGroup[n]['last_count']*100)/last_cases).toFixed(2);
+            objGroup[n]['per_7'] = ((objGroup[n]['last7_count']*100)/last7_cases).toFixed(2);
+            objGroup[n]['per_14'] = ((objGroup[n]['last14_count']*100)/last7_cases).toFixed(2);
+            objGroup[n]['timeline'] = covertTimeline('ConfirmDate',objGroup[n]['data']);
+            
+        }
+    }
+
+    function loadArea(){
+        $.ajax({
+            dataType: "json",
+            url: '/api/open/area',
+            method: "GET",
+            async: false,
+            success : function(data){
+                data_area = data.Data;
+                loadMap()
+            }
+        });
+    }
+
+    function loadMap(){
+        map = L.map('map').setView([13.7245601,100.4930267], 5); 
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } 
+
+        function showPosition(position) {
+
+            map.setView(new L.LatLng(position.coords.latitude,position.coords.longitude),9);
+            // x.innerHTML = "Latitude: " + position.coords.latitude +
+            // "<br>Longitude: " + position.coords.longitude;
+        }
+
+        $.ajax({
+            url: "/mapv2.json",
+            method: "GET",
+            async: false,
+            success : function(data){
+                geojson_data = data;
+                for(var i=0;i<geojson_data.features.length;i++){
+                    if(objGroup[geojson_data.features[i]['properties']['name']]){
+                        if(objGroup[geojson_data.features[i]['properties']['name']]['last14_count']>0)
+                        {
+                            geojson_data.features[i]['properties']['density'] = objGroup[geojson_data.features[i]['properties']['name']]['last14_count']
+                        }else{
+                            geojson_data.features[i]['properties']['density'] = -1
+                        }
+                    }else{
+
+                        geojson_data.features[i]['properties']['density'] = 0
+
+                    }
+                    
+                }
+                geojson = L.geoJson(geojson_data, {
+                    style: style,
+                    onEachFeature: onEachFeature
+                }).addTo(map);
+
+            }
+        });
+
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+            maxZoom: 18,
+            attribution: '',
+            id: 'mapbox/light-v9',
+            tileSize: 512,
+            zoomOffset: -1
+        }).addTo(map);
+        
+
+        var info = L.control();
+
+        info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info');
+            this.update();
+            return this._div;
+        };
+
+        info.update = function (props) {
+            // this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
+            //     '<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
+            //     : 'Hover over a state');
+        };
+
+        info.addTo(map);
+
+
+        // get color depending on population density value
+        function getColor(d) {
+            return d > 100 ? '#ea2227' :
+                    d >= 50  ? '#ed8487' :
+                    d >= 10  ? '#f0bfc1' :
+                    d >= 5  ? '#f0ced0' :
+                    d >= 1   ? '#f1dbdb' :
+                    d == -1   ? '#e8da00' :
+                                '#00b75f';
+        }
+
+        function style(feature) {
+            return {
+                weight: 2,
+                opacity: 1,
+                color: '#666',
+                fillColor: getColor(feature.properties.density),
+                dashArray: '1',
+                fillOpacity: 0.5,
+            };
+        }
+
+        function highlightFeature(e) {
+            var layer = e.target;
+
+            layer.setStyle({
+                weight: 2,
+                color: '#000',
+                dashArray: '',
+                fillOpacity: 0.7
+            });
+
+            if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                layer.bringToFront();
+            }
+
+            info.update(layer.feature.properties);
+        }
+
+        function resetHighlight(e) {
+            geojson.resetStyle(e.target);
+            info.update();
+        }
+
+        function zoomToFeature(e) {
+            // console.log(e.target.feature.properties.name)
+            findLoByName(e.target.feature.properties.name)
+            // map.fitBounds(e.target.getBounds(),false);
+        }
+        
+
+        function onEachFeature(feature, layer) {
+            layer.on({
+                mouseover: highlightFeature,
+                mouseout: resetHighlight,
+                click: zoomToFeature
+            });
+        }
+
+        var alertIcon = L.icon({
+            iconUrl: '/img/alert.png',
+            iconSize: [30, 30],
+        });
+
+        var cssIcon = L.divIcon({
+            className: 'css-icon',
+            html: '<div class="gps_ring"></div><div class="gps_ring_w"></div>',
+            iconSize:[30, 30],
+        });
+
+        var _dup = [];
+        for(var i=0;i<data_area.length;i++){
+            obj = findMyInfo(data_area[i]['ProvinceEn'])
+            if(obj['status']){
+                data_area[i]['lat'] = obj['lat'];
+                data_area[i]['long'] = obj['long'];
+                
+                if(_dup.indexOf(data_area[i]['ProvinceEn'])<=-1){
+                _dup.push(data_area[i]['ProvinceEn'])
+                                        L.marker([obj['lat'], obj['long']], {icon: alertIcon}).addTo(map).on('click', onClickMark)
+                        .bindTooltip(data_area[i]['Province'])
+                        .openTooltip();
+                                        L.marker([obj['lat'], obj['long']], {icon: cssIcon}).addTo(map).on('click', onClickMark);
+
+                }
+            }
+        }
+        
+        function onClickMark(e){
+            findLoByLatLong(e.latlng['lat'],e.latlng['lng'])
+        }
+       
+       function findMyInfo(_name){
+           var obj = {
+               'status':false
+           }
+            for(var i=0;i<geojson_data.features.length;i++){
+                if(geojson_data.features[i]['properties']['name'] == _name.split(" ").join("")){
+                    obj = geojson_data.features[i]['properties'];
+                    obj['status'] = true;
+                    return obj;
+                    break;
+                }
+            }
+
+            return obj;
+       }
+    }
+
+    function findLoByLatLong(lat,long){
+        // console.log('data_area')
+        // console.log(data_area)
+        var _arr = [];
+        for(var i=0;i<data_area.length;i++){
+            if(data_area[i]['lat']==lat && data_area[i]['long']==long)
+            {
+                _arr.push(data_area[i]);
+            }
+        }
+        _arr.reverse();
+        var _html = '';
+        // console.log(_arr)
+        for(var i=0;i<_arr.length;i++){
+            _html += '<div class="item-alert">';
+            _html += '<h3 class="location_alert">'+_arr[i]['Location']+'</h3>';
+            _html += '<span class="date_alert">วันที่ '+_arr[i]['Date'];
+            _html += ', เวลา  '+_arr[i]['Time'];
+            _html += '</span><br>';
+            _html += '<p><br>';
+
+            if(_arr[i]['Detail']!='' && _arr[i]['Detail']!='null' && _arr[i]['Detail']!=null){
+                _html += '<span class="title_alert">รายละเอียดเพิ่มเติม</span> : '+_arr[i]['Detail']+' ';
+                _html += '<p><br>';
+            }
+            
+                _html += '<span class="title_alert">คำแนะนำ</span> : '+_arr[i]['Recommend']+' ';
+            _html += '</p><br>';
+            _html += '</div>';
+        }
+        _html += '<div class="block-qusetion"><div class="body-qusetion">'
+        _html +=  '<a class="button active" href="/th/self_screening">'
+                _html +=  '<h3>'
+        _html +=  '<b>ทดสอบประเมินความเสี่ยง</b>'
+        _html +=  '</h3>'
+                _html +=  '</a>'
+        _html +=  '</div></div>';
+
+        $("#covid_alert .title").html('<i class="fas fa-exclamation" style="color:red"></i>  '+_arr[0]['Province']);
+        $("#covid_alert .alert-box").html(_html);
+        $("#covid_alert").modal('show') 
+    }
+
+    var chart_provice
+
+    function findLoByName(n){
+        if (typeof objGroup[n] !== 'undefined'){
+                                $(".modal .title").html(
+                    objGroup[n]['name']+
+                    '<br><span class="more_detail"> อัตราการเกิดโรคในรอบ 14 วัน = <span class="hl">'+objGroup[n]['last14_count']+'</span> คน (จากทั้งหมด <span class="hl">'+objGroup[n]['count']+'</span> คน)<span>'+
+                    '<br><span class="more_detail"> อัตราการเกิดโรคในรอบ 14 วัน คิดเป็น <span class="hl">'+objGroup[n]['per_14']+'%</span> ของประเทศไทย และคิดเป็น <span class="hl">'+objGroup[n]['per_all']+'% </span>ตั้งแต่เกิดโรคในประเทศ<span>'+
+                    '<br><span class="more_detail"> ผู้ป่วยอายุเฉลี่ย <span class="hl">'+Math.round(objGroup[n]['SumAge']/objGroup[n]['CountWithAge'])+'</span> ปี สัญชาติไทย <span class="hl">'+objGroup[n]['Thai']+'</span> คน และชาวต่างประเทศ <span class="hl">'+objGroup[n]['Foreigner']+'</span> คน'+
+                    '<br><span class="more_detail"> ผู้ป่วยแบ่งเป็น ชาย <span class="hl">'+objGroup[n]['Male']+'</span> คน , หญิง <span class="hl">'+objGroup[n]['Female']+'</span> คน , ไม่ทราบ <span class="hl">'+Number(objGroup[n]['count']-Number(objGroup[n]['Male']+objGroup[n]['Female']))+'</span> คน<span>'
+                );
+                                $("#covid_info .block-case").html('');
+                var _html = '';
+
+                for(var i=0;i<objGroup[n]['data'].length;i++){
+                    _html += '<div class="item-case">';
+                    _html += '<p class="date">'+objGroup[n]['data'][i]['ConfirmDate']+'</p>';
+                    _html += '<h3 class="case">Case : '+objGroup[n]['data'][i]['No']+'</h3>';
+                    _html += '<p>';
+                        _html += '<span style="white-space: nowrap;">สัญชาติ : '+
+                                                objGroup[n]['data'][i]['Nation']
+                                                +' |</span> ';
+                        _html += '<span style="white-space: nowrap;">เพศ : '+                        objGroup[n]['data'][i]['Gender']
+                        +' |</span> ';
+                        _html += '<span style="white-space: nowrap;">อายุ : '+objGroup[n]['data'][i]['Age']+'</span>';
+                    
+                    if(objGroup[n]['data'][i]['District']!=''){
+                        _html += ' | <span style="white-space: nowrap;">อำเภอ/เขต : '+objGroup[n]['data'][i]['District']+'</span>';
+                    }
+                    _html += '</p>';
+
+
+                                        if(objGroup[n]['data'][i]['Detail']!='' && objGroup[n]['data'][i]['Detail']!='null' && objGroup[n]['data'][i]['Detail']!=null){
+                        _html += '<p><span>รายละเอียดเพิ่มเติม </span><br><span class="hl">'+objGroup[n]['data'][i]['Detail']+'</span></p>';
+                    }
+                    
+                    _html += '</div>';
+                }
+                var obj = generateTimelineChartProvince(
+                    'ความถี่ในการพบผู้ติดเชื้อ',
+                    '#03A9F4',
+                    objGroup[n]['timeline']
+                );
+                chart_provice = new ApexCharts(document.querySelector("#chart_provice"),obj);
+                chart_provice.render();
+
+    
+                $("#covid_info .block-case").html(_html);
+                $("#covid_info").modal('show') 
+        }
+        
+    }
+
+    function covertTimeline(_name,_arr){
+        var obj = {};
+        var arr = [];
+        for(var i=0;i<_arr.length;i++){
+            var _date = _arr[i][_name];
+            // console.log(_date)
+            if (typeof obj[_date] !== 'undefined'){
+                obj[_date]['value'] ++
+            }else{
+                obj[_date] = {};
+                obj[_date]['value'] = 1
+                obj[_date]['date'] = moment(_date, "DD/MM/YYYY").format('YYYY-MM-DD')
+            }
+        }
+        for(var n in obj){
+            arr.push(obj[n]);
+        }
+
+        return arr;
+    }
+
+
+    function generateTimelineChartProvince(_name,_color,arr){
+        var _arr = [];
+        var max = 10;
+        var start_date = moment().subtract(30,'d').format('YYYY-MM-DD');
+        for(var i=0;i<=moment(UpdateDate,'DD/MM/YYYYY').diff(start_date,'days');i++){
+            var val = 0;
+            for(var j=0;j<arr.length;j++){
+                if(moment(start_date).add(i, 'days').format('YYYY-MM-DD')==arr[j]['date'])
+                {
+                    val = arr[j]['value'];
+                    if(max<val){
+                        max = val;
+                    }
+                    break;
+                }
+            }
+            _arr.push([moment(start_date).add(i, 'days').format('YYYY-MM-DD'),val]);
+            
+        }
+        var options = {
+        series: [{
+        data: _arr,
+        name: _name,
+        }],
+        chart: {
+        type: 'area',
+        height: 300,
+        zoom: {
+            type: 'x',
+            enabled: true,
+            autoScaleYaxis: true
+        },
+        toolbar: {
+            autoSelected: 'zoom'
+        }
+        },
+        dataLabels: {
+        enabled: false
+        },
+        markers: {
+        size: 0,
+        },
+        title: {
+        text: _name,
+        align: 'left'
+        },
+        colors: [_color],
+        fill: {
+        type: 'gradient',
+        gradient: {
+            shadeIntensity: 1,
+            inverseColors: false,
+            opacityFrom: 0.5,
+            opacityTo: 0,
+            stops: [0, 90, 100]
+        },
+        },
+        yaxis: {
+        title: {
+            text: ''
+        },
+        max: max,
+        min: 0
+        },
+        xaxis: {
+            min: new Date(moment().subtract(14,'d')).getTime(),
+            type: 'datetime'
+        },
+        tooltip: {
+        shared: false,
+        y: {
+            formatter: function (val) {
+            return val+' '
+            }
+        }
+        }
+        };
+
+        return options;
+    }
+    
+    function setProvinceCount(){
+        var dataSet = [];
+        for(var n in objGroup){
+            // if(n!='Unknown'){StatQuarantine
+                dataSet.push([objGroup[n]['name'],objGroup[n]['count']-objGroup[n]['StatQuarantine'],objGroup[n]['StatQuarantine']]);
+            // }
+        }
+        dataSet = dataSet.sort(function(a,b) {
+            return b[1] - a[1];
+        });
+
+         $.fn.DataTable.ext.pager.numbers_length = 5;
+         $.fn.DataTable.ext.pager.numbers_length = 5;
+        var table = $('#datatable').DataTable( {
+            data: dataSet,
+            columns: [
+                { title: "จังหวัด" },
+                { title: "ติดเชื้อในพื้นที่" ,
+                render: $.fn.dataTable.render.number(',') },
+                { title: "ติดเชื้อในที่กักกันรัฐ" ,
+                render: $.fn.dataTable.render.number(',') },
+            ],
+            info: false,
+            bSort : true,
+            order: [[ 1, "desc" ]],
+            orderCellsTop: true,
+            sDom: '<"row view-filter"<"col-sm-12"<"pull-left"l><"pull-right"f><"clearfix">>>t<"row view-pager"<"col-sm-12"<"text-center"ip>>>'
+
+        } );
+        
+        // $('#unknown_province').html(" "+objGroup['Unknown']['count']);
+
+        
+    }
+
+</script>
+</div>
+<div class="col-xs-12 pd-0">
+<div class="col-xs-12 title-card">
+<h3 class="">
+สถิติทั่วไป
+</h3>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+<div class="block-st-all">
+<div class="col-xs-6 col-sm-12 ">
+<div class="card-default">
+<p>อายุน้อยสุด</p>
+<h1>1 เดือน</h1>
+</div>
+</div>
+<div class="col-xs-6 col-sm-12">
+<div class="card-default">
+<p>อายุมากสุด</p>
+<h1>97 ปี</h1>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12">
+<div class="card-default">
+<p>อายุเฉลี่ย</p>
+<h1>37 ปี</h1>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+<div class="card-">
+<div id="chart-timeline"></div>
+</div>
+<div class="card-">
+<div id="chart-confirm"></div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
+<div class="card-">
+<div id="chart-nation"></div>
+</div>
+<div class="card-">
+<div id="chart-gender"></div>
+</div>
+</div>
+<script>
+    var data_timeline = [];
+    var data_cases_sum = [];
+
+    function convertValueNumber(arr){
+        var _arr = [];
+        for(var i=0;i<arr.length;i++){
+        arr[i]['value'] = Number(arr[i]['value']);
+        _arr.push([arr[i]['date'],arr[i]['value']])
+        }
+        return _arr;
+    }
+
+    function generateMultiPleTimelineChart(_id,_name,_name_1,_color_1,_arr_1,_name_2,_color_2,_arr_2,_name_3,_color_3,_arr_3,_name_4,_color_4,_arr_4){
+        var options = {
+        series: [{
+        name: _name_1,
+        data: convertValueNumber(_arr_1)
+        },{
+        name: _name_2,
+        data: convertValueNumber(_arr_2)
+        },{
+        name: _name_3,
+        data: convertValueNumber(_arr_3)
+        },{
+        name: _name_4,
+        data: convertValueNumber(_arr_4)
+        }],
+        chart: {
+        type: 'area',
+        id: _id,
+        group: 'timeline',
+        stacked: false,
+        //fontFamily: 'Conv_Athiti-bd',
+
+        height: 300,
+        zoom: {
+            type: 'x',
+            enabled: true,
+            autoScaleYaxis: true
+        },
+        toolbar: {
+            autoSelected: 'zoom'
+        }
+        },
+        dataLabels: {
+        enabled: false
+        },
+        markers: {
+        size: 0,
+        },
+        title: {
+        text: _name,
+        align: 'left'
+        },
+        colors: [_color_1,_color_2,_color_3,_color_4],
+        fill: {
+        type: 'gradient',
+        gradient: {
+            shadeIntensity: 1,
+            inverseColors: false,
+            opacityFrom: 0.5,
+            opacityTo: 0,
+            stops: [0, 90, 100]
+        },
+        },
+        yaxis: {
+        title: {
+            text: ''
+             },
+        },
+        xaxis: {
+            min: new Date(moment().subtract(30,'d')).getTime(),
+            type: 'datetime',
+        },
+        tooltip: {
+            shared: false,
+            y: {
+                formatter: function (val) {
+                return val+' '
+                }
+            }
+        }
+        };
+
+        return options;
+    }
+
+     
+    $( document ).ready(function() {
+        loadTimeline();
+        loadSum();
+    });
+    
+    function loadTimeline(){
+        $.ajax({
+            dataType: "json",
+            url: '/api/open/timeline',
+            method: "GET",
+            async: false,
+            success : function(data){
+                data_timeline = data.Data;
+                setTimelineData()
+            }
+        });
+        
+    }
+
+    
+    function loadSum(){
+        $.ajax({
+            dataType: "json",
+            url: 'https://covid19.th-stat.com/api/open/cases/sum',
+            method: "GET",
+            async: false,
+            success : function(data){
+                data_cases_sum = data;
+                setBarNation()
+                setBarGender()
+            }
+        });
+        
+    }
+
+    function setBarNation(){
+        var data = [];
+        var label = [];
+        var max = 0;
+        var other = 0;
+        for(var n in data_cases_sum['Nation']){
+            max++
+            if(max<=5){
+                data.push(data_cases_sum['Nation'][n]);
+                label.push(n);
+            }else{
+                other++;
+            }
+        }
+        data.push(other);
+        label.push('Other');
+
+        var options = {
+            series: [{
+                name: '',
+                data: data
+            }],
+            chart: {
+                type: 'bar',
+                height: 300
+            },
+            title: {
+                text: 'สัญชาติ',
+                align: 'left'
+            },
+            colors: ['#0b1d7f','#cccccc','#cccccc','#cccccc','#cccccc','#cccccc','#cccccc'],
+            plotOptions: {
+                bar: {
+                    horizontal: true,
+                    distributed: true
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            xaxis: {
+                categories: label,
+            },
+            tooltip: {
+                shared: false,
+                y: {
+                    formatter: function (val) {
+                    return val+' '
+                    }
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart-nation"), options);
+        chart.render();
+      
+    }
+
+    function setBarGender(){
+        var data = [];
+        var label = [];
+        var max = 0;
+        var other = 0;
+        for(var n in data_cases_sum['Gender']){
+            max++
+            if(max<=5){
+                data.push(data_cases_sum['Gender'][n]);
+                label.push(n);
+            }else{
+                other++;
+            }
+        }
+
+        var options = {
+            series: [{
+                name: '',
+                data: data
+            }],
+            chart: {
+                type: 'bar',
+                height: 200
+            },
+            title: {
+                text: 'เพศ',
+                align: 'left'
+            },
+            colors: ['#046034','#e1298e','#cccccc'],
+            plotOptions: {
+                bar: {
+                    horizontal: true,
+                    distributed: true
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            xaxis: {
+                categories: label,
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart-gender"), options);
+        chart.render();
+    
+    }
+
+    function setTimelineData(){
+        var chart_timeline = new ApexCharts(document.querySelector("#chart-timeline"), 
+        generateMultiPleTimelineChart('timeline','แยกตามช่วงเวลา'
+        ,'ติดเชื้อสะสม','#e1298e',covertTimelineData('Confirmed',data_timeline)
+        ,'หายแล้ว','#046034',covertTimelineData('Recovered',data_timeline)
+        ,'รักษาอยู่ใน รพ.','#179c9b',covertTimelineData('Hospitalized',data_timeline)
+        ,'เสียชีวิต','#666666',covertTimelineData('Deaths',data_timeline)
+        ));
+        chart_timeline.render();
+        setLineNeConfirm();
+    }
+
+    function covertTimelineData(_name,_arr){
+        var arr = [];
+        for(var i=0;i<_arr.length;i++){
+            var obj = {
+                'date' : moment(_arr[i]['Date']).format("YYYY-MM-DD"),
+                'value' : _arr[i][_name]
+            }
+            arr.push(obj);
+        }
+        return arr;
+    }
+
+    function setLineNeConfirm(){
+        var options = {
+          series: [{
+          name: 'จำนวนการพบผู้ป่วยใหม่',
+          data: convertValueNumber(covertTimelineData('NewConfirmed',data_timeline))
+        }],
+          chart: {
+          height: 200,
+          type: 'line',
+        },
+        stroke: {
+          width: 7,
+          curve: 'smooth'
+        },
+        xaxis: {
+          type: 'datetime',
+          min: new Date(moment().subtract(30,'d')).getTime(),
+        },
+        title: {
+          text: 'จำนวนการพบผู้ป่วยใหม่',
+          align: 'left',
+          style: {
+            fontSize: "16px",
+            color: '#666'
+          }
+        },
+        fill: {
+          type: 'gradient',
+          gradient: {
+            shade: 'dark',
+            gradientToColors: [ '#046034'],
+            shadeIntensity: 1,
+            type: 'horizontal',
+            opacityFrom: 1,
+            opacityTo: 1,
+            stops: [0, 100, 100, 100]
+          },
+        },
+        markers: {
+          size: 4,
+          colors: ["#e1298e"],
+          strokeColors: "#fff",
+          strokeWidth: 2,
+          hover: {
+            size: 7,
+          }
+        },
+        yaxis: {
+          title: {
+            text: '',
+          },
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart-confirm"), options);
+        chart.render();
+    }
+
+
+</script>
+</div>
+</div>
+</div>
+</div>
+<script>
+
+    $( document ).ready(function() {
+        $('.intro-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            items:1,
+            dots:true,
+            smartSpeed:500,
+            autoHeight:false,
+            autoplay:true,
+            autoplayTimeout:10000
+        });
+    });
+</script>
+</section>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-xs-12 pd-0">
+<div class="footer-logo">
+<a target="_blank" style="border-right: 1px solid #ffffff63;padding-right: 0px;padding-bottom: 10px;font-size: 16px;" href="https://www.facebook.com/groups/192150165377624/">
+<img src="https://covid19.th-stat.com/img/covid_19/logo_tdgc.png" alt="">
+</a>
+<a target="_blank" href="http://www.kidkarnmai.com/">
+<img src="https://covid19.th-stat.com/img/covid_19/logo_kid.png" style="height: 40px;" alt="">
+</a>
+</div>
+<div class="footer-content">
+<p>
+ข้อมูลเป็นการร่วมมือกันระหว่าง <span style="white-space: nowrap;">กรมควบคุมโรค กระทรวงสาธารณสุข</span> <br>ทีมงาน <span style="white-space: nowrap;">TH-STAT.com</span> และกลุ่ม TCDG สามารถติดต่อสอบถามเพิ่มเติมได้ที่
+<a style="white-space: nowrap; cursor:pointer" onclick="decryptEmail('aW5mb0B0aC1zdGF0LmNvbQ==')">info@th-stat.com</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="tab-m visible-xs">
+<div class="block-tab-m topper">
+<div class="block-qusetion">
+<div class="body-qusetion">
+<a class="button active" href="/th/self_screening">
+<h3>
+<b>ทดสอบประเมินความเสี่ยง</b>
+</h3>
+</a>
+</div>
+</div>
+</div>
+<div class="block-tab-m">
+<ul>
+<li class=" active ">
+<a href="/th">
+<i class="fas fa-home" style="font-size:32px; margin: 0 auto;"></i>
+</a>
+</li>
+<li class="">
+<a href="/th/network">
+<i class="flaticon-share"></i>
+</a>
+</li>
+<li class="">
+<a href="/th/self_screening">
+<i class="flaticon-file-2"></i>
+</a>
+</li>
+<li class="">
+<a href="/th/api">
+<i class="flaticon-monitor"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<button class="to_top">
+<i class="fas fa-arrow-up" style="font-size:30px; color:white"></i>
+</button>
+<script type="text/javascript">
+    $(document).ready(function() {
+      if (window.location.href.indexOf("self_screening") > -1) {
+        $('.topper').hide();
+      }
+    });
+    function decryptEmail(encoded) {
+        var address = atob(encoded);
+        window.location.href = "mailto:" + address;
+    }
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+<script src="https://covid19.th-stat.com/script/covid_19/action.js"></script>
+<script src="https://covid19.th-stat.com/script/covid_19/controller.js?v=28"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e67a37b84798a03"></script>
+<div>
+</div>
+</body>
+</html>
