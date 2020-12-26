@@ -7,11 +7,15 @@
     
 </head>
 <body>
-    <h1>โปรแกรมคำนวนเกรด </h1>
+    <h1 onclick='alert(document.getElementById("inputValue").value)'>แปลง </h1>
+    <div id="answer"></div>
+   <input id="inputValue" type="text" />
+   <button onclick='display("answer",toFahrenheit(document.getElementById("inputValue").value))'>Celsius to Fahrenheit</button>
+   <button onclick='display("answer",toCelsius(document.getElementById("inputValue").value))'>Fahrenheit to Celsius</button>
+
+   <script src="app5.js"></script>
     
-    <h1 id ="result"></h1>
-   
     
-    <script src="app.js"></script>
+    
 </body>
 </html>
