@@ -1,19 +1,25 @@
-let apiUrl = "https://pokeapi.co/api/v2/pokemon/"
-let input = document.querySelector('.pokemon-input')
-let pokemonName = document.querySelector('.pokemon-name')
-let pokemonImage = document.querySelector('.pokemon-image')
+let apiUrl = "https://covid19.th-stat.com/api/open/today"
+let covid = document.querySelector('.covid-name')
 
-function getPokemonData(){
-    axios.get(apiUrl + input.value)
+function getCovidData(){
+    axios.get(apiUrl)
     .then(function(response){
-        pokemonName.innerHTML = response.data.forms[0].name;
-        pokemonImage.src = response.data.sprites.front_default;
+        
+            covid.innerHTML += "ติดเชื้อสะสม : " +  response.data.Confirmed + "<br></br>";
+            covid.innerHTML += "หายแล้ว : " +  response.data.Recovered + "<br></br>";
+            covid.innerHTML += "กำลังรักษา : " +  response.data.Hospitalized + "<br></br>";
+            covid.innerHTML += "เสียชีวิต : " +  response.data.Deaths + "<br></br>";
+            covid.innerHTML += "ติดเชื้อเพิ่มอีก : " +  response.data.NewConfirmed + "<br></br>";
+            covid.innerHTML += "รักษาหายเพิ่ม : " +  response.data.NewRecovered + "<br></br>";
+            covid.innerHTML += "เข้ารับการรักษาเพิ่ม : " +  response.data.NewHospitalized + "<br></br>";
+            covid.innerHTML += "เสียชีวิตเพิ่ม : " +  response.data.NewDeaths + "<br></br>";
+            covid.innerHTML += "อัปเดตเมื่อวันที่ : " +  response.data.UpdateDate + "<br></br>";     
+        
     })
     .catch(function(e){
-        pokemonName.innerHTML = "(error bro !!!)";
-        pokemonImage.src = "";
+        covid.innerHTML = "(error bro !!!)";
     })
 }
 
-let button = document.querySelector(".pokemon-button")
-button.addEventListener("click",getPokemonData)
+let button = document.querySelector(".covid-button")
+button.addEventListener("click",getCovidData)
