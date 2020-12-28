@@ -13,13 +13,11 @@ function getCovidData(){
             covid.innerHTML += "รักษาหายเพิ่ม : " +  response.data.NewRecovered + "<br></br>";
             covid.innerHTML += "เข้ารับการรักษาเพิ่ม : " +  response.data.NewHospitalized + "<br></br>";
             covid.innerHTML += "เสียชีวิตเพิ่ม : " +  response.data.NewDeaths + "<br></br>";
-            covid.innerHTML += "อัปเดตเมื่อวันที่ : " +  response.data.UpdateDate + "<br></br>";     
-        
+            covid.innerHTML += "อัปเดตเมื่อวันที่ : " +  response.data.UpdateDate + "<br></br>";            
     })
     .catch(function(e){
         covid.innerHTML = "(error bro !!!)";
     })
 }
-
 let button = document.querySelector(".covid-button")
 button.addEventListener("click",getCovidData)
