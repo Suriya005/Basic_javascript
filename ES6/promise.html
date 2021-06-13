@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Pending : ระการเกิดอีเว้น
+        //Fulfilled : อีเว้นสำเร็จส่งรางวัลออกไป
+        //Rejected : อีเว้นไม่สำเร็จ ส่งข้อความออกไป
+
+        //ES5
+        var isEvent = true;
+
+        var goHome = new Promise(
+            function(resolve, reject){
+                if(isEvent){
+                    var succesfull = {
+                        me : 'I go home succesfully'
+                    }
+                    resolve(succesfull);
+                }else{
+                    reject(alert("I don't go home"))
+                }
+            }
+        );
+
+        var askMe = function(){
+            goHome.then(function(fulfilled){
+                console.log(fulfilled);
+            }).catch(function(error){
+                console.log(error.message)
+            })
+        }
+
+        askMe();
+
+
+    </script>
+</body>
+</html>

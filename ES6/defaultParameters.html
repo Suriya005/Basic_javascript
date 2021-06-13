@@ -8,11 +8,11 @@
 </head>
 <body>
     <script>
-        const myFunc = (name, age) =>{
+        const myFunc = (name, age = 21) =>{
             return `hello world ${name} your age is ${age} year old`;
         }
 
-        console.log(myFunc('nick',21))
+        console.log(myFunc('nick')); //หากลืมใส่ค่าให้กับ age ระบบก็จะทำการแสดงค่า default (age = 20)
     </script>
 </body>
 </html>
